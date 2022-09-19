@@ -33,3 +33,30 @@ Cuando se suma o multiplican tres o más números, la operación es la misma sin
             
            3 + ( 2 + 5) = 10 
            3 +     7    = 10           
+           
+### Propiedad Distributiva 
+
+La suma de dos números multiplicando por un tercer número es igula a la suma de cada sumando multiplicando por el tercer número. Ejemplo: 
+
+             8 x (4 + 15) = (8 x 4) + (8 x 15) 
+              8 x   19    =  32 +  120 
+                    152 =  152
+                    
+### Propiedad de identidad 
+
+En caso de la suma, la suma de cualquier numero y cero da como resultado el mismo numero 
+
+                5 + 0 = 5 
+                
+En caso de la multiplicación, el prodcuto de culaquier número y uno da como resultado ese mismo número 
+
+            5 * 0 = 5 
+
+### Sistema Binarrio 
+
+El sistema binario es un método de representación numérica que utiliza la combinación de dos dígitos: 1 y 0 para simbolizar datos, programas ejecutables y texto. En el mundo de la informática, cada uno de estos números conforma un bit binario y un conjunto de 8 bits equivale a un byte.
+
+Al adoptar este sistema se puede establecer el valor positivo o negativo, verdadero o falso de una propiedad o enunciado. En este ejemplo tenemos un bombillo encendido, el cual representa el número 1 y un bombillo apagado, donde no hay corriente y, por lo tanto, representa el valor 0.
+
+![imagen](https://user-images.githubusercontent.com/83564327/190916075-ee833ad7-8486-4827-8c6a-7754addbeef4.png)
+
