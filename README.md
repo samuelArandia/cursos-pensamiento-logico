@@ -118,3 +118,57 @@ Funcionan bajo las mismas condiciones que en el sistema decimal, todo número mu
 conversión decimal con python 
 
 ![imagen](https://user-images.githubusercontent.com/83564327/191408928-27748874-69a0-4eb8-b78b-e928d8254501.png)
+
+### Suma y resta de binarios 
+
+La mitad de las restas me daban bien y la mitad me daba un número inclusive mayor que los números que estaban restando. Por si hay alguien más con este problema: mi error era que cuando se acarreaba un 1 por encima de un 0 estaba restando 1 - 0 cuando el orden correcto es 0 - 1.
+Volví a revisar el video y la profesora señala el orden de esa resta de forma equivocada, primero señala el 1 acarreado y luego le resta el número de abajo (lo que en el ejemplo que ella da no cambia nada porque es 1 - 1).
+
+Suma
+        La suma de 0 + 0 es 0
+        La suma de 1 + 0 es 1
+        La suma de 0 + 1 es 1
+        La suma de 1 + 1 es 10, llevando 1 al numero a la izquierda inmediata.
+        
+Resta
+    
+        La resta de 0 - 0 es 0
+        La resta de 1 - 1 es 0
+        La resta de 1 - 0 es 1
+        La resta de (1)0 - 1 es 1
+
+### Multiplicacón y la división 
+
+Multiplicación: Todo número multiplicado por 0 es igual a 0
+
+0 x 0 = 0
+0 x 1 = 0
+1 x 0 = 0
+1 x 1 = 1
+
+Ejemplo
+
+        1 1 0 · 1 0 = 1 1 0 0
+        
+Realizamos el procedimiento como en una multiplicación normal (sumando el resultado de los productos)
+
+División 
+
+Tener en cuenta cuál es el· Dividendo· y el · Divisor ·
+
+¿El divisor es menor al número que estoy tomando?
+Si no ❌ = 0 y no se puede restar
+Si es igual (﹦) o si es mayor ☑️ = 1 y realizamos la operación
+*En la comparación de < o > de los números es como si fueran decimales => 0 1 0 = 10.
+
+Ejemplo
+
+    1 0 1 1 0 / 1 0 = 0🌥 1🌤 0 🌞 1 🌧 1☁️ = 1 0 1 1 El cero de la izquierda no se toma
+    10 < 1 = >❌ = 🌥 0
+    10 < 10 => (﹦) = 1 0 - 1 0 = 0 0 = 🌤1
+    10 < 001 => ❌ = 0 🌞
+    10 < 11 = ☑️ = 0 0 1 1 - 1 0 = 0 1 = 1 🌧
+    10 < 010 => (﹦) = 0 1 0 - 1 0 = 0 0 = ☁️1
+
+![imagen](https://user-images.githubusercontent.com/83564327/191410499-e6277453-effc-4028-9028-c551bf097720.png)
+
