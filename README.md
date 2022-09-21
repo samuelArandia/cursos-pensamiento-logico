@@ -188,3 +188,7 @@ TABLA DE LA VERDAD
 -Conjunción: Es verdadera cuand ambas son verdaderas. 
 
 -Disyunción: sera verdadera cuando por lo menos una de las proposiciones es verdadera, de lo contratio sera falsa 
+
+### Operadores logicos 
+
+![imagen](https://user-images.githubusercontent.com/83564327/191412703-ec5ed2fc-8bb3-4417-b70a-f09cc2a59b80.png)
