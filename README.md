@@ -172,3 +172,19 @@ Ejemplo
 
 ![imagen](https://user-images.githubusercontent.com/83564327/191410499-e6277453-effc-4028-9028-c551bf097720.png)
 
+### Tabla de verdad 
+
+Herramienta que nos ayuda a determinar cuales son las condiciones necesarias para que sea verdadero o valido un enunciado propuesto.
+
+TABLA DE LA VERDAD CON BINARIO 
+
+![imagen](https://user-images.githubusercontent.com/83564327/191411667-db816116-d49c-4cce-bddc-15d79e83b681.png)
+
+TABLA DE LA VERDAD 
+![imagen](https://user-images.githubusercontent.com/83564327/191411731-20259264-cc38-4ba1-98fe-5131e6f0188e.png)
+
+-Negación: Devulve el valor opuesto de la proposicion considerada
+
+-Conjunción: Es verdadera cuand ambas son verdaderas. 
+
+-Disyunción: sera verdadera cuando por lo menos una de las proposiciones es verdadera, de lo contratio sera falsa 
