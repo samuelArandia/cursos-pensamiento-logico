@@ -193,9 +193,21 @@ TABLA DE LA VERDAD
 
 Son herramientas que nos permiten entenerder aquellas condiciones que no va a permitir obtener un resultado 
 
-![imagen](https://user-images.githubusercontent.com/83564327/191657778-20e48f43-4d70-4c0a-8dc4-eb51bc8bab7f.png)
-![imagen](https://user-images.githubusercontent.com/83564327/191657591-926343d0-922f-4c2c-bced-89535925eab1.png)
+Los operadores lógicos se usan para combinar dos valores Booleanos y devolver un resultado verdadero, falso o nulo. Los operadores lógicos también se denominan operadores Booleanos.
 
-![imagen](https://user-images.githubusercontent.com/83564327/191657708-8ff20ac0-c87d-47cf-a462-ca27f5f30255.png)
+⚡👉Operadores lógicos
+
+Operador “No”: Devuelve True cuando la expresión es falsa. Invierte el valor de una afirmación.
+Ejemplo de No: No Luz encendida = Luz apagada. Devuelve el inverso de la expresión.
+
+Operador “Y”: Devuelve True cuando Expresión1 y Expresión2 son verdaderas.
+Ejemplo de Y: Expresión1 Y Expresión2 (Ambas expresiones tienen que ser true)
+
+Operador “O”: Devuelve True cuando Expresión1 o Expresión2 es verdadera.
+Ejemplo de O: Expresión1 O Expresión2 (Puede ser true una sola expresión o ambas)
+
+Operador “Xor”: Devuelve True si Expresión1 es verdadera o Expresión2 es verdadera, pero no ambas.
+Ejemplo de Xor: Expresión1 Xor Expresión2 (Tiene que ser true una sola expresión, no pueden ser ambas, así como tampoco ninguna)
+
 
 ![imagen](https://user-images.githubusercontent.com/83564327/191412703-ec5ed2fc-8bb3-4417-b70a-f09cc2a59b80.png)
