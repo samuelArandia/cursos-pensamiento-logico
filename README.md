@@ -280,3 +280,29 @@ Los operadores de comparación se usan para comparar valores y devolver un resul
     14 <> 14 (false)
 
 Nota: El operador diferente <> se suele representar como != en lenguajes de programación.
+
+### Reto 0: Identidica los operadores 
+
+👉 Ejemplos de uso
+
+Ejemplos con decimales:
+
+7 < 10 AND 10 => 10 AND 12 > 6 
+(true, ya que todas las condiciones devuelven un valor verdadero)
+
+8 < 4 OR 31 <= 10 OR 5 > 6 
+(false, ya que todas las condiciones devuelven un valor falso. Ninguna se cumple)
+   
+8 < 4 XOR 45 > 43 (true, ya que se cumple una sola condición.)
+
+Ejemplos con situaciones de la vida real:
+
+-Para ducharme necesito agua AND jabón (true, ya que ambos elementos son indispensables para ducharme)
+
+-Puedo tomar mis curso de platzi desde mi móvil OR mi computadora (true, porque la plataforma está tanto en aplicación móvil como en la web)
+ 
+-Quiero una golosina, puedo comer chocolates XOR caramelos. El médico me recetó estrictamente comer solo una golosina al día, así que me decido por el chocolate (true, porque solo podía elegir entre uno o otro, pero no ambos).
+
+“Porque, recuerda!.. las preguntas correctas nos van a ayudar a encontrar el resultado y a tomar las decisiones que estamos necesitando tomar, parece simple… pero al hacer esta expresión grafica de nuestros operadores y de las herramientas que tenemos a la mano vamos a encontrar mucho mejor aquellas respuestas que estamos buscando” 
+
+Ana Belisa Martínez
