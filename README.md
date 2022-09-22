@@ -211,3 +211,72 @@ Ejemplo de Xor: Expresión1 Xor Expresión2 (Tiene que ser true una sola expresi
 
 
 ![imagen](https://user-images.githubusercontent.com/83564327/191412703-ec5ed2fc-8bb3-4417-b70a-f09cc2a59b80.png)
+
+### Operadores Aritméticos 
+
+Son elementos o simbolos que nos permiter indentificar cuales son los proceso y resultado dentrode un flujo de trabajo.
+
+
+
+Los operadores aritméticos son aquellos que “manipulan” datos numéricos, tanto enteros como reales. Se usan para calcular un valor de dos o más números, o cambiar el signo de un número de positivo a negativo o viceversa.
+
+⚡👉Operadores aritméticos
+
+Operador suma + : Suma dos números.
+Ejemplo de suma + : [Subtotal] + [ImpuestoSobreVentas]
+
+Operador resta - : Busca la diferencia entre dos números o indica el valor negativo de un número.
+Ejemplo de resta - : [Precio]-[Descuento]
+
+Operador multiplicación * : Multiplica dos números.
+Ejemplo de multiplicación * : [Cantidad]*[Precio]
+
+Operador división / : Divide el primer número entre el segundo.
+Ejemplo de división / : [Total]/[RecuentoDeElementos]
+
+Operador resto % : Divide el primer número entre el segundo y después devuelve únicamente el resto.
+Ejemplo de resto % : [Registradas] % [Salas]
+
+Operador exponente ^ : Eleva un número a la potencia de un exponente.
+Ejemplo de exponente ^ : Número ^ Exponente
+
+### Operadores de comparación 
+
+Los operadores de comparación se usan para comparar valores y devolver un resultado que sea True, False o Null.
+⚡👉 Operadores de comparación
+
+    Menor que < : Devuelve True si el primer valor es menor que el segundo valor.
+    Ejemplos:
+    5 < 9 ( true)
+    8 < 2 (false)
+
+    Menor o igual <= : Devuelve True si el primer valor es menor o igual que el segundo valor.
+    Ejemplos:
+    7 <= 14 (true)
+    7 <= 7 (true)
+    7 <= 5 (false)
+
+    Mayor que > : Devuelve True si el primer valor es mayor que el segundo valor.
+    Ejemplos:
+    9 > 6 ( true)
+    8 > 19 (false)
+
+    Mayor o igual >= : Devuelve True si el primer valor es mayor o igual que el segundo valor.
+    Ejemplos:
+    12 => 8 (true)
+    12 => 12 (true)
+    12 => 25 (false)
+
+    Igual = : Devuelve True si el primer valor es igual al segundo valor.
+    Ejemplos:
+    15 = 15 (true)
+    15 = 11 (false)
+    15 = 29 (false)
+
+    Diferente <> : Devuelve True si el primer valor no es igual al segundo valor.
+    Ejemplos:
+    14 <> 17 (true)
+    14 <> 123 (true)
+    14 <> 14 (false)
+
+Nota: El operador diferente <> se suele representar como != en lenguajes de programación.
