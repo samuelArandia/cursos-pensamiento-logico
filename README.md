@@ -193,8 +193,7 @@ TABLA DE LA VERDAD
 
 Son herramientas que nos permiten entenerder aquellas condiciones que no va a permitir obtener un resultado 
 
-![imagen](https://user-images.githubusercontent.com/83564327/191657467-b94f8ec6-df41-474a-8b90-60582fa44c70.png)
-
+![imagen](https://user-images.githubusercontent.com/83564327/191657778-20e48f43-4d70-4c0a-8dc4-eb51bc8bab7f.png)
 ![imagen](https://user-images.githubusercontent.com/83564327/191657591-926343d0-922f-4c2c-bced-89535925eab1.png)
 
 ![imagen](https://user-images.githubusercontent.com/83564327/191657708-8ff20ac0-c87d-47cf-a462-ca27f5f30255.png)
