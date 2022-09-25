@@ -638,3 +638,40 @@ Ejemplo:
                 }
                 suma(1,2);
                
+## Scope o alcance en funciones
+
+Privadas: Funcionan de forma local, no pueden ser llamadas en otros algoritmos, por eso es importante determinar el alcance de la función, ya que puedes estar tratando con información más compleja que es especifica para ese algoritmo, y no puede ser compartida a otros algoritmos que la puedan necesitar.
+
+Públicas: El alcance es global. Puedes mandar a llamar funciones de un algoritmo a otro.
+
+![imagen](https://user-images.githubusercontent.com/83564327/192162873-c05db40d-5ef7-4b21-8828-9889b9fbccd0.png)
+
+¿Qué es el scope en JavaScript?
+
+El scope puede definirse como el alcance que una variable tendrá en tu código. En otras palabras, el scope decide a qué variables tienes acceso en cada parte del código. Existen dos tipos de scope, el scope global y el scope local. A continuación te mostraré un par de ejemplos explicando en qué consiste cada uno de ellos.
+Qué es el Scope Local
+
+Cuando puedes acceder a una variable únicamente en cierta parte del código, se dice que esa variable está declarada en el scope local. Estas también son conocidas como variables locales. Un ejemplo de esto es cuando una variable está declarada dentro de un bloque o una función. Si tratas de acceder a esta variable fuera de esta función o bloque, tendrás un error que dirá que la variable no está definida.
+
+                function platzi() {
+                	const soyEstudiante = true;
+                	console.log(soyEstudiante);
+                }
+                
+                platzi(); // true
+                console.log(soyEstudiante); // soyEstudiante is not defined
+
+Qué es el Scope Global
+
+Se dice que una variable está en el sope global cuando está declarada fuera de una función o de un bloque. También son conocidas como variables globales. Puedes acceder a este tipo de variables desde cualquier parte de tu código, ya sea dentro o fuera de una función.
+
+                const soyEstudiante = true;
+                
+                function platzi() {
+                	console.log(soyEstudiante);
+                }
+                
+                platzi(); //true
+                console.log(soyEstudiante); //true
+
+A pesar de que JavaScript nos permite declarar una variable como global, no es una buena práctica. Una de las razones es porque tenemos la posibilidad de declarar dos variables globales en distintas partes del código con el mismo nombre sin notarlo.
