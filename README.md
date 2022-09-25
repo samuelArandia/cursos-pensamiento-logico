@@ -514,3 +514,23 @@ if Edad > 18:
 else: 
     print("Es menor de edad")
     
+## Ciclos 
+
+Un bucle o ciclo, es una secuencia de instrucciones de código que se ejecuta repetidas veces, hasta que la condición asignada a dicho bucle deja de cumplirse.
+
+Ciclo for:
+
+Punto de partida
+Cantidad de iteraciones.
+Incremento
+
+Ciclo while:
+
+Primero establece la condición para que sucesan las iteraciones.
+Mientras un suceda un evento determinado el ciclo seguirá iterando.
+
+Do while:
+
+Primero ejecuta una instrucción mientras se cumpla una condición.
+
+
