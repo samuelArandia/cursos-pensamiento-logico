@@ -307,9 +307,39 @@ Ejemplos con situaciones de la vida real:
 
 Ana Belisa Martínez
 
+### Agoritmos 
+🌈 ¿Cómo construir un algoritmo? 🌈
+
+Tener claro el requerimiento: quiero encender la luz de la habitación donde estoy en este momento
+
+✨ Análisis ✨
+    ¿Cuál es el objetivo? -> Encender la luz 💡
+    ¿Con qué recursos cuento? -> Habitación 🚪
+    ¿Qué condiciones previas deben pasar para que sea posible? -> Que la luz esté apagada
+
+✨ Paso a paso ✨
+
+¿Qué tiene que pasar para que se cumpla el objetivo con los recursos que tengo?
+
+a. Validar que la luz esté apagada (condición base)
+b. Identificar dónde voy a encender la luz
+c. Presionar el elemento que me permita encender la luz
+
+¿Si yo realizo estos pasos cumpliré con el objetivo?
+Validar si el resultado que obtuve fue el que esperaba inicialmente
+
+✨ Optimizar ✨
+a. Tomar el requerimiento
+b. Identificar qué tenemos y lo que no
+c. Qué condición hace falta para que suceda
+d. Lo que necesitamos para que el objetivo se logre
+
+🎯 Identificar las diferentes alternativas que puedo tomar para cumplir el objetivo
+
 ### Diagrama de flujo 
 
-Conjunto de símbolos y de elementos que nos permiten representar cada uno de los pasos que componen un proceso
+Conjunto de símbolos y de elementos que nos permiten representar cada uno de los pasos que componen un proceso. Siempre identificar lo pasos. 
+
 ✨ Elementos ✨
 
 🔴 óvalo horizontal - Inicio y fin
@@ -318,3 +348,4 @@ Conjunto de símbolos y de elementos que nos permiten representar cada uno de lo
 ➡️ Conectores: inicio y final de un proceso
 
 ![imagen](https://user-images.githubusercontent.com/83564327/192123365-dd7ff687-2c69-4356-9fa7-a76857e6af24.png)
+
