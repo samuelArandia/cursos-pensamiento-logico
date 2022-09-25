@@ -428,3 +428,8 @@ En python sería así:
                 cont = text + number
                 print(cont)
  
+### Booleanos 
+
+Son aquellos que estan representado por true o false, o 1 y 0, o si o no. no permiten identificar cuando algo en negativo o positivo, cuando hay presencia o cuando hay ausencia de algo. Son resultado dentro de un flujo o un procesos que nos permiten tomar dicisiones. 
+
+![imagen](https://user-images.githubusercontent.com/83564327/192148511-58945d1e-5a56-49fe-9885-27182a1adbde.png)
