@@ -306,3 +306,15 @@ Ejemplos con situaciones de la vida real:
 “Porque, recuerda!.. las preguntas correctas nos van a ayudar a encontrar el resultado y a tomar las decisiones que estamos necesitando tomar, parece simple… pero al hacer esta expresión grafica de nuestros operadores y de las herramientas que tenemos a la mano vamos a encontrar mucho mejor aquellas respuestas que estamos buscando” 
 
 Ana Belisa Martínez
+
+### Diagrama de flujo 
+
+Conjunto de símbolos y de elementos que nos permiten representar cada uno de los pasos que componen un proceso
+✨ Elementos ✨
+
+🔴 óvalo horizontal - Inicio y fin
+🔹 Decisión: pregunta cuya respuesta debe ser sí o no
+🟧 rectángulo - Proceso: operación, mensaje o algoritmo
+➡️ Conectores: inicio y final de un proceso
+
+![imagen](https://user-images.githubusercontent.com/83564327/192123365-dd7ff687-2c69-4356-9fa7-a76857e6af24.png)
