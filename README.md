@@ -690,3 +690,11 @@ Para saber que lenguaje de programación usar, primero define cual es la necesid
 ### Herramientas para programar
 
 Replit: plataforma en linea que no ayuda a descubir nuevos lenguajes de Programación online
+
+## JavaScript (https://developer.mozilla.org/es/docs/Web/JavaScript)
+
+ Es el lenguaje de programación encargado de dotar de mayor interactividad y dinamismo a las páginas web. Cuando JavaScript se ejecuta en el navegador, no necesita de un compilador. El navegador lee directamente el código, sin necesidad de terceros. Por tanto, se le reconoce como uno de los tres lenguajes nativos de la web junto a HTML (contenido y su estructura) y a CSS (diseño del contenido y su estructura).
+
+![imagen](https://user-images.githubusercontent.com/83564327/192164572-fc71c507-e710-46ee-a885-65b487154f03.png)
+
+## Primeros paso en javaScript 
