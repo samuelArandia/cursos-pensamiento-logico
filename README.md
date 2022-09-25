@@ -349,3 +349,14 @@ Conjunto de símbolos y de elementos que nos permiten representar cada uno de lo
 
 ![imagen](https://user-images.githubusercontent.com/83564327/192123365-dd7ff687-2c69-4356-9fa7-a76857e6af24.png)
 
+# Manejo de datos, estructurasy funciones 
+
+### ¿Qué es un dato? 
+
+Es una porción de información muy concreta y especifica que nos permite, a través de diferentes operaciones y estructuras, tomar decisiones. Hacen parte de un algoritmo en una estructura más grande.
+
+Son la base sobre la cual partimos y sobre la cual llegamos, además, componen todas las estructuras para que puedan funcionar y sean operables.
+
+### ¿Qué es una concatenación?
+
+En la unión de alguna variable o en este caso una cadena de texto del mismo tipo de texto, al momento de concatenar los espacios no se agregan automáticamente, tienes tu que realizarlo manualmente
