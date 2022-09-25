@@ -684,3 +684,9 @@ Los podemos ver como la forma cotidiana en que nos comunicamos con otras persona
 De esta forma nos comunicamos con una computadora, a la que le enviamos un mensaje o instrucciones sobre un algoritmo que hemos formado y le indicaremos que debe realizar ciertas operaciones. Este conjunto de códigos que forman un sentido lógico para ella, los traduce a la cantidad de bits que necesita para operar y devolver un resultado. Así es como se crea un canal de comunicación con la computadora, y esto que utilizamos para dicha comunicación es un lenguaje de programación 😃
 
 💻 Hay diferentes lenguajes de programación, pero lo que varía entre ellos es su sintaxis.
+
+Para saber que lenguaje de programación usar, primero define cual es la necesidad que tienes, en base a ello puedes iniciar esa búsqueda.
+
+### Herramientas para programar
+
+Replit: plataforma en linea que no ayuda a descubir nuevos lenguajes de Programación online
