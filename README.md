@@ -475,6 +475,7 @@ Condicional if: Se usa para tomar decisiones, este evalúa una operación lógic
                 " 3 es mayor a 2" 
                 
 Condicional else: Si no se cumple ninguna condición se ejecutará otro bloque de instrucciones
+
                 if 12 < 19 entonces   <--(false)
                     "Es mayor a 19"
                 else <--(Se ejecutará el siguiente bloque, ya que la primera condición no lo hizo)
