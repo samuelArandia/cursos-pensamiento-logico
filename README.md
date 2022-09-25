@@ -675,3 +675,12 @@ Se dice que una variable está en el sope global cuando está declarada fuera de
                 console.log(soyEstudiante); //true
 
 A pesar de que JavaScript nos permite declarar una variable como global, no es una buena práctica. Una de las razones es porque tenemos la posibilidad de declarar dos variables globales en distintas partes del código con el mismo nombre sin notarlo.
+
+
+# lenguaje de programación
+
+Los podemos ver como la forma cotidiana en que nos comunicamos con otras personas, utilizamos una serie de palabras que están compuestas por letras, las cuales tienen un significado, y cada vez que las unimos formamos frases que utilizamos como canal de comunicación con otras personas. Este conjunto de palabras y letras son códigos que tienen un sentido y pueden variar en cada idioma.
+
+De esta forma nos comunicamos con una computadora, a la que le enviamos un mensaje o instrucciones sobre un algoritmo que hemos formado y le indicaremos que debe realizar ciertas operaciones. Este conjunto de códigos que forman un sentido lógico para ella, los traduce a la cantidad de bits que necesita para operar y devolver un resultado. Así es como se crea un canal de comunicación con la computadora, y esto que utilizamos para dicha comunicación es un lenguaje de programación 😃
+
+💻 Hay diferentes lenguajes de programación, pero lo que varía entre ellos es su sintaxis.
