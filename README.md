@@ -567,3 +567,20 @@ Primero ejecuta una instrucción mientras se cumpla una condición.
 ### Algoritmos con ciclos 
 
 ![imagen](https://user-images.githubusercontent.com/83564327/192153221-a7af8413-bc33-4a8c-ac80-9ae6556b1f30.png)
+
+
+### Try Catch 
+
+La declaración try...catch señala un bloque de instrucciones a intentar (try), y especifica una respuesta si se produce una excepción (catch).
+
+Ejemplo: 
+
+        try {
+          nonExistentFunction();
+        } catch (error) {
+          console.error(error);
+          // expected output: ReferenceError: nonExistentFunction is not defined
+          // Note - error messages will vary depending on browser
+        }
+
+
