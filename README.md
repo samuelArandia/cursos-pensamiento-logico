@@ -502,3 +502,15 @@ Default: Sirve para que el flujo de nuestro algoritmo no se rompa en caso de que
 Ejemplo: 
 
 ![imagen](https://user-images.githubusercontent.com/83564327/192150450-2033826f-2417-4ca4-af85-6a70e63dcf24.png)
+
+## Algoritmos con variables y condiciones 
+
+![imagen](https://user-images.githubusercontent.com/83564327/192150589-152f79de-cec3-4457-8e3e-1dc8a5ece673.png)
+
+Edad = 25
+
+if Edad > 18: 
+    print ("Es mayor de edad")
+else: 
+    print("Es menor de edad")
+    
