@@ -584,3 +584,35 @@ Ejemplo:
         }
 
 
+### Algoritmo con manejo de errores 
+
+Division 
+
+Sin try/catch:
+
+            a = 10
+            b = 0
+
+            c = a / b
+
+            print("El resultado de dividir " + a + " entre " + b + " es " + c)
+            print("El programa termino con exito")
+
+En este caso, la ultima linea de código, el mensaje que debería salir con El programa termino con exito no se ejecuta ya que Python al tratar de dividir por 0 lanzará un error en la consola y detendrá la ejecución del código.
+
+Con try/catch
+
+                a = 10
+                b = 0
+                
+                try:
+                    c = a / b
+                    print("El resultado de dividir " + a + " entre " + b + " es " + c)
+                except:
+                    print("Alto, no es posible dividir por 0")
+                
+                print("El programa termino con exito")
+
+En este caso, Python al tratar de realizar la división por 0 lanza el except (En Python no es catch sino except pero el concepto es el mismo), y muestra el mensaje Alto, no es posible dividir por 0, luego continúa con el código y finalmente muestra el mensaje El programa termino con exito que está fuera del bloque de try/catch.
+
+Espero que el aporte les sea de ayuda para entender un poco más el concepto de try/catch. Otros usos que se le puede dar a esta instrucción, es cuando tratas de realizar operaciones artiméticas con diferentes tipos de datos que no son compatibles, cuando alguna variable no está definida, cuando se trata de indexar algún valor que no está en un array y así hay muchos otros usos para esta instrucción. San Google siempre será de gran ayuda si necesitan ampliar el concepto. 
