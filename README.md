@@ -569,7 +569,7 @@ Primero ejecuta una instrucción mientras se cumpla una condición.
 ![imagen](https://user-images.githubusercontent.com/83564327/192153221-a7af8413-bc33-4a8c-ac80-9ae6556b1f30.png)
 
 
-### Try Catch 
+## Try Catch 
 
 La declaración try...catch señala un bloque de instrucciones a intentar (try), y especifica una respuesta si se produce una excepción (catch).
 
@@ -616,3 +616,25 @@ Con try/catch
 En este caso, Python al tratar de realizar la división por 0 lanza el except (En Python no es catch sino except pero el concepto es el mismo), y muestra el mensaje Alto, no es posible dividir por 0, luego continúa con el código y finalmente muestra el mensaje El programa termino con exito que está fuera del bloque de try/catch.
 
 Espero que el aporte les sea de ayuda para entender un poco más el concepto de try/catch. Otros usos que se le puede dar a esta instrucción, es cuando tratas de realizar operaciones artiméticas con diferentes tipos de datos que no son compatibles, cuando alguna variable no está definida, cuando se trata de indexar algún valor que no está en un array y así hay muchos otros usos para esta instrucción. San Google siempre será de gran ayuda si necesitan ampliar el concepto. 
+
+
+## Función
+
+Función: Una función es un bloque de instrucciones que hace una actividad especifica de forma independiente al resto del algoritmo. Con una función puedes segmentar partes de tu algoritmo, las cuales puedes reutilizar.
+
+Una función tiene 3 componentes importantes:
+
+- Los parámetros, que son los valores que recibe la función como entrada (puede             llevarlos o no, pero en la mayoría de casos si lleva).
+
+- Las instrucciones de la función, que son las operaciones que hace la función.
+
+- El resultado (o valor de retorno), que es el valor final que entrega la función.
+
+
+Ejemplo: 
+
+            function sumar(a, b) {
+                    return console.log(a+b);
+                }
+                suma(1,2);
+               
