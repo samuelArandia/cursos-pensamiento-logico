@@ -349,7 +349,7 @@ Conjunto de símbolos y de elementos que nos permiten representar cada uno de lo
 
 ![imagen](https://user-images.githubusercontent.com/83564327/192123365-dd7ff687-2c69-4356-9fa7-a76857e6af24.png)
 
-# Manejo de datos, estructurasy funciones 
+# Manejo de datos, estructuras y funciones 
 
 ### ¿Qué es un dato? 
 
@@ -360,3 +360,71 @@ Son la base sobre la cual partimos y sobre la cual llegamos, además, componen t
 ### ¿Qué es una concatenación?
 
 En la unión de alguna variable o en este caso una cadena de texto del mismo tipo de texto, al momento de concatenar los espacios no se agregan automáticamente, tienes tu que realizarlo manualmente
+
+## Tipos de datos 
+
+#### Texto 
+
+Estan compuesto por letras principalmente. Son estos tipos de datos al que le llamamamos cadenas de caracteres, aquel que esta compuesto por una secuencia de letras y no necesariamente deben tener un significado. 
+
+Ejemplo: 
+
+            Ana 
+
+Los espacios en la frase también forman parte de la cadena texto. Son fundamentales 
+
+        Ana_esta_estudiando 
+        
+Todas las oraciones son una cadena de texto, un caracter es solo un unidad de de cada una de la letras que forma una cadena de caracteres 
+
+Podemos tener 2 cadenas de texto separadas y unirlas mediante la concatenación.
+Para concatenar necesitamos que ambas partes sean del mismo tipo de dato, en este caso de tipo texto.
+
+        Parte1: Ana
+        Parte2: está 
+        Concatenación: Anaestá
+
+Para que nuestra cadena de texto tenga sentido lógico es necesario concatenar un espacio
+        
+        Parte1: Ana
+        Parte2: _ (el guion bajo es solo para representar el espacio)
+        Parte3: está
+        Concatenación: Ana está
+
+Al momento de definir tu tipo de dato como texto, todo lo que incluya tu cadena será reconocido como texto, incluso si su representación gráfica es un número, por ejemplo, un nombre de usuario: “user2004” <–es una cadena de texto.
+
+
+### Númericos 
+
+Esta representado por los numero que conocenos dia a dia que nos ayuda a trbaajar co nuestro operadores aritmeticos 
+
+Int o entero: Incluye los números sin ningún tipo de adición decimal.
+
+        7
+        10
+        20 
+        
+Float o double: Incluye los números con parte decimal.
+
+        3,14
+        29,23
+        37,73
+        
+Los datos numéricos en combinación con los operadores aritméticos nos permite realizar diferentes operaciones matemáticas y guardan cierta relación con los tipos de datos de texto.
+
+Pueden también estar representados con unidades negativas
+
+    -7
+    -10
+    +20
+       
+Concatenación: Te permite combinar los elementos 
+
+
+En python sería así:
+
+                number = '123'
+                text = 'HolaMundo'
+                cont = text + number
+                print(cont)
+ 
