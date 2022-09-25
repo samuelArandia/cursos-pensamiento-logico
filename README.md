@@ -520,17 +520,50 @@ Un bucle o ciclo, es una secuencia de instrucciones de código que se ejecuta re
 
 Ciclo for:
 
-Punto de partida
-Cantidad de iteraciones.
-Incremento
+Punto de partida, muy importante
+Cantidad de iteraciones. Cantida de vueltas 
+Incremento. Sera aquel que aumenta la cantidad 
+
+        let estaturas = [1.80, 1.66, 1.75]
+
+        for ( i=0; i<=2; i++)
+        if(estaturas[i]>=1.70{
+                console.log("Puedes entrar");
+            }else{
+                console.log("No puedes entrar");
+            }
+        }
 
 Ciclo while:
 
 Primero establece la condición para que sucesan las iteraciones.
 Mientras un suceda un evento determinado el ciclo seguirá iterando.
 
+            let estaturas = [1.80, 1.66, 1.75]
+            let i=0;
+            while(i<=2){
+                if(estaturas[i]>=1.70){
+                     console.log("Puedes entrar");
+                }else{
+                    console.log("No puedes entrar");
+                }  
+                i++;
+            }
 Do while:
 
 Primero ejecuta una instrucción mientras se cumpla una condición.
 
+                let estaturas = [1.80, 1.66, 1.75]
+                let r=0;
+                do{
+                    if(estaturas[i]>=1.70){
+                         console.log("Puedes entrar");
+                    }else{
+                        console.log("No puedes entrar");
+                    }  
+                    i++; 
+                }while (i<=2)
+  
+### Algoritmos con ciclos 
 
+![imagen](https://user-images.githubusercontent.com/83564327/192153221-a7af8413-bc33-4a8c-ac80-9ae6556b1f30.png)
