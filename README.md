@@ -481,6 +481,24 @@ Condicional else: Si no se cumple ninguna condición se ejecutará otro bloque d
                 else <--(Se ejecutará el siguiente bloque, ya que la primera condición no lo hizo)
                     "No es mayor que 19"
                 
+Condicional switch: La estructura selectiva switch selecciona una de entre múltiples alternativas. Esta estructura es especialmente útil cuando la selección se basa en el valor de una variable simple o de una expresión simple denominada expresión de control o selector.
+Default: Sirve para que el flujo de nuestro algoritmo no se rompa en caso de que no se cumpla ningún case, mostrando un mensaje por defecto.
 
+                "Se solicita número del 1 al 4"
 
+                 switch (número)
+                 
+                 case 1:
+                  "El número ingresado es 1"
+                 case 2:
+                  "El número ingresado es 2"
+                 case 3:
+                  "El número ingresado es 3"
+                 case 4:
+                  "El número ingresado es 4"
+                 default: 
+                "El número ingresado no está en el rango 1-4"
+                
+Ejemplo: 
 
+![imagen](https://user-images.githubusercontent.com/83564327/192150450-2033826f-2417-4ca4-af85-6a70e63dcf24.png)
