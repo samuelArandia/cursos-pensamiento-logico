@@ -710,3 +710,13 @@ IMPERATIVO: indicamos una secuencia de operaciones a realizar.
 DECLARATIVO: especificamos el resultado deseado, no cómo lograrlo.
 
 Cuando usamos el ciclo for para obtener el resultado, estamos usando programación imperativa y cuando aplicamos Math.max estamos siendo declarativos.
+
+            let numeros = [7, 15, 156, 32, 51, , 61];
+            let max = 0;
+            
+            for (i = 0; i < numeros.length; i++) {          
+              if (numeros[i] > max) {
+                max = numeros[i];
+              }
+            }
+            console.log(max)
