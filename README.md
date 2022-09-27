@@ -722,7 +722,8 @@ Cuando usamos el ciclo for para obtener el resultado, estamos usando programaci�
             console.log(max)
 
 ### Python 
-    Es un lenguaje sencillo de leer y escribir debido a su alta similitud con el lenguaje humano. Además, se trata de un lenguaje multiplataforma de código abierto y, por lo tanto, gratuito, lo que permite desarrollar software sin límites.
+
+Es un lenguaje sencillo de leer y escribir debido a su alta similitud con el lenguaje humano. Además, se trata de un lenguaje multiplataforma de código abierto y, por lo tanto, gratuito, lo que permite desarrollar software sin límites.
     
 Principales características de Python:
 
@@ -731,3 +732,6 @@ Principales características de Python:
 -Lenguaje ideal para el manejo de grandes volúmenes
 de datos.
 -sintaxis fácil de aprender y escribir.
+
+## Primeros pasos con python 
+
