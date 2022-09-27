@@ -698,3 +698,15 @@ Replit: plataforma en linea que no ayuda a descubir nuevos lenguajes de Programa
 ![imagen](https://user-images.githubusercontent.com/83564327/192164572-fc71c507-e710-46ee-a885-65b487154f03.png)
 
 ## Primeros paso en javaScript 
+
+Reto de calculadora completado 
+![imagen](https://user-images.githubusercontent.com/83564327/192188943-5bb3efa8-7431-4c33-aaad-67d5e3052338.png)
+
+### Progrando un algoritmo con javascript 
+
+Los lenguajes de programación suelen tener 2 formas:
+
+IMPERATIVO: indicamos una secuencia de operaciones a realizar.
+DECLARATIVO: especificamos el resultado deseado, no cómo lograrlo.
+
+Cuando usamos el ciclo for para obtener el resultado, estamos usando programación imperativa y cuando aplicamos Math.max estamos siendo declarativos.
