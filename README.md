@@ -734,4 +734,23 @@ de datos.
 -sintaxis fácil de aprender y escribir.
 
 ## Primeros pasos con python 
+                
+                # Calculadora con opreciones matematicas basicas 
+                   valor1 = int(input("Indicar valor 1:"))
+                   x = input("Digite el operador: ")
+                   valor2= int(input("Indica el valor 2:"))
+                   
+                   if x == "+":
+                     resultado = valor1 + valor2 
+                   elif x == "-":
+                     resultado = valor1 - valor2 
+                   elif x == "*":
+                     resultado = valor1 * valor2 
+                   elif x == "/":
+                     resultado = valor1 / valor2 
+                   
+                   print(resultado)
+
+### PROGRAMANDO UN ALGORITMO EN PYTHON 
+
 
