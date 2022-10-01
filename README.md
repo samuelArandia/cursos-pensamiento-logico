@@ -754,3 +754,10 @@ de datos.
 ### PROGRAMANDO UN ALGORITMO EN PYTHON 
 
 
+                frase = 'Un desarrollador en la patagonia'
+                inicial = 3 
+                final = 16
+
+                palabra = frase[inicial:final]
+
+                print(palabra)
