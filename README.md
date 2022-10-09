@@ -761,3 +761,34 @@ de datos.
                 palabra = frase[inicial:final]
 
                 print(palabra)
+
+### PHP (https://www.php.net/manual/es/intro-whatis.php)
+
+PHP es un lenguaje de programación destinado a desarrollar aplicaciones para la web y crear páginas web, favoreciendo la conexión entre los servidores y la interfaz de usuario. Entre los factores que hicieron que PHP se volviera tan popular, se destaca el hecho de que es de código abierto.
+
+Características de PHP:
+-Se puede introducir código de PHP dentro de HTML.
+-Permite comunicarse directamente con un servidor.
+-Utilizado en el Backend.
+-Se puede conectar directamente con la base de
+datos.
+-Al final de cada línea de código termina con un punto y
+coma.
+
+### Primero pasos en php 
+
+echo: hace referencia a mostrar un mensaje 
+
+para declara variables se empiza con signo peso ($) 
+
+            <?php 
+                function suma() {
+                  $valor1 = 8; 
+                  $valor2 = 12; 
+                  $resultado = $valor1 + $valor2;
+                  print_r($resultado); 
+                }
+                    suma()
+              ?> 
+                
+            
