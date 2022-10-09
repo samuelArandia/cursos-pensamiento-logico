@@ -791,4 +791,32 @@ para declara variables se empiza con signo peso ($)
                     suma()
               ?> 
                 
+### Calcuadora en php 
+
+            <?php 
+            
+            $operacion = readline("que operacion desea realizar: 
+            1. suma 
+            2. resta 
+            3. multiplicacion 
+            4. division: "); 
+            $valor1 = readline("digite el primer numero: "); 
+            $valor2 = readline("digite el segundo numero: "); 
+            
+            if($operacion == 1) {
+              $resultado = $valor1 + $valor2; 
+              echo "El resultado de la suma es: ".$resultado;
+            } elseif($operacion == 2 ) {
+              $resultado = $valor1 - $valor2; 
+              echo("El resultado de la resta es: ". $resultado);
+            } elseif( $operacion == 3) {
+              $resultado = $valor1 * $valor2; 
+              echo ("El resultado de la multiplicacion es: ". $resultado);
+            } elseif($operacion == 4) {
+              $resultado = $valor1 / $valor2;
+              echo(" El resultado de la division es: ".$resultado);
+            } else {
+              echo ("Digite un valor para la operacion ");
+            }
+            ?>          
             
